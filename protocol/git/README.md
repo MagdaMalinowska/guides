@@ -12,6 +12,7 @@ Maintain a Repo
 * Perform work in a feature branch.
 * Rebase frequently to incorporate upstream changes.
 * Use a pull request for code reviews.
+* Avoid commits on master except empty commits which trigger a deploy
 
 
 Write a Feature
@@ -62,6 +63,14 @@ Ask for a code review in the project's chat room.
 [good commit message]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [Bitbucket pull request]: https://www.atlassian.com/git/tutorials/making-a-pull-request/
 [GitHub pull request]: https://help.github.com/articles/using-pull-requests/
+
+Master commits
+--------------
+
+Master commits should be avoided. The only reason one should make a commit on master, and only one, is to trigger a deploy with Codeship.
+
+    git commit --allow-empty -m 'Deploy.'
+    git push
 
 Review Code
 -----------
