@@ -90,7 +90,7 @@ For changes which they can make themselves, they check out the branch.
 They make small changes right in the branch, test the feature on their machine,
 run tests, commit, and push.
 
-When satisfied, they comment on the pull request `Ready to merge.`
+When satisfied, they either approve the pull request (Bitbucket), or comment on the pull request `Ready to merge.` (Github).
 
 Merge
 -----
