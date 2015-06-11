@@ -12,7 +12,7 @@ Maintain a Repo
 * Perform work in a feature branch.
 * Rebase frequently to incorporate upstream changes.
 * Use a pull request for code reviews.
-* Avoid commits on master except empty commits which trigger a deploy
+* Avoid commits on master except empty commits which trigger a deploy.
 
 
 Write a Feature
@@ -80,7 +80,7 @@ A team member other than the author reviews the pull request. They follow
 miscommunication.
 
 They make comments and ask questions directly on lines of code in the
-Bitbucket/GitHub web interface or in the project's chat room.
+Bitbucket / GitHub web interface or in the project's chat room.
 
 For changes which they can make themselves, they check out the branch.
 
@@ -102,7 +102,7 @@ tests.
     git fetch origin
     git rebase -i origin/master
 
-Force push your branch. This allows Bitbucket/GitHub to automatically close
+Force push your branch. This allows Bitbucket / GitHub to automatically close
 your pull request and mark it as merged when your commit(s) are pushed to master.
 It also makes it possible to [find the pull request] that brought in your changes.
 
@@ -116,7 +116,7 @@ View a list of new commits. View changed files. Merge branch into master.
     git merge <branch-name> --ff-only
     git push
 
-Use "Merge pull request" button from Bitbucket/Github web interface for merging a pull request.
+Use "Merge pull request" button from Bitbucket / GitHub web interface for merging a pull request.
 
 Delete your remote feature branch.
 
