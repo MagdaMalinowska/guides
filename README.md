@@ -6,6 +6,7 @@ Guides for getting things done, programming well, and programming in style.
 * [Protocol](/protocol)
   * [Git](/protocol/git)
 * [Code Review](/code-review)
+* [Style](/style)
 
 High level guidelines:
 
