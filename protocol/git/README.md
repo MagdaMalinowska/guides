@@ -41,7 +41,7 @@ Create a local feature branch based off master.
 
     + select and checkout `master` branch
     + pull (with rebase) latest changes from `origin/master`
-    + click "Checkout" button and select "Checkout New Branch"
+    + click "Branch" button
 
 Rebase frequently to incorporate upstream changes.
 
