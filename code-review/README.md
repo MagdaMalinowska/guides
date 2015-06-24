@@ -3,6 +3,21 @@ Code Review
 
 A guide for reviewing code and having your code reviewed.
 
+* Always done for pull-requests related to Backlog stories.
+* A way to share application and code knowledge between developers.
+
+Reviewers
+---------
+
+* On Bitbucket add reviewers to your pull request, since it is a feature.
+* On Github mention reviewers in the pull request's description.
+* Add minimum two reviewers for important changes to code.
+* Add one reviewer for less important changes.
+* Add mentions to other team members which should learn about the code.
+* Address all issues raised by a reviewer in the pull request's comments.
+* Always wait for approval from a code reviewer.
+* Pull requests without code reviewers: add mentions to team members, and talk at next Standup about these changes.
+
 Everyone
 --------
 
