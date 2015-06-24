@@ -78,7 +78,6 @@ When you've staged the changes, commit them.
 
 - SourceTree:
 
-    + select and inspect "Working Copy"
     + click "Commit" button
 
 Write a [good commit message]. Example format:
