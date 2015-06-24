@@ -90,6 +90,19 @@ Write a [good commit message]. Example format:
 
     http://project.management-system.com/ticket/123
 
+Prefer [atomic commits]:
+
+* Commit each fix or task as a separate change.
+* Only commit when a block of work is complete.
+* Commit each layout change separately.
+* Joint commit for layout file, code behind file, and additional resources.
+
+Benefits
+
+* Easy to roll back without affecting other changes.
+* Easy to make other changes on the fly.
+* Easy to merge features to other branches.
+
 If you've created more than one commit, use a rebase to squash them into
 cohesive commits with good messages:
 
@@ -119,6 +132,7 @@ Submit a [Bitbucket pull request] or a [GitHub pull request] depending on projec
 Ask for a code review in the project's chat room.
 
 [good commit message]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[atomic commits]: http://www.freshconsulting.com/atomic-commits/
 [Bitbucket pull request]: https://www.atlassian.com/git/tutorials/making-a-pull-request/
 [GitHub pull request]: https://help.github.com/articles/using-pull-requests/
 
